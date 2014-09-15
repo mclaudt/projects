@@ -40,6 +40,10 @@ import parallel.*;
 import javax.swing.JLabel;
 import java.awt.Dimension;
 
+/** Точка входа, с GUI.
+ * @author mclaudt
+ *
+ */
 @SuppressWarnings("serial")
 public class MainGUI extends JFrame {
 

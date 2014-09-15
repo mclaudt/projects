@@ -6,6 +6,11 @@ import javax.swing.JPanel;
 
 import akka.actor.UntypedActor;
 
+/** Актор-менеджер, получает сообщения от акторов отрисовки о завершении задач, в конце выводит затраченное время.
+ * Аналог Watcher для тасчета на тредах.
+ * @author mclaudt
+ *
+ */
 public class BossActor extends UntypedActor {
 	long starttime;
 	BufferedImage bi;

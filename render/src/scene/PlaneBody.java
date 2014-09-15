@@ -8,6 +8,10 @@ import linalg.Ray;
 	
 	
 
+/** Компонент в виде бесконечной плоскости.
+ * @author mclaudt
+ *
+ */
 public class PlaneBody implements Body {
 		
 		

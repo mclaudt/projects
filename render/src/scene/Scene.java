@@ -7,6 +7,10 @@ import linalg.Point3d;
 import linalg.Ray;
 import linalg.Utils;
 
+/** Сцена, при создании экземпляра наполняет себя объектами на основе random seed.
+ * @author mclaudt
+ *
+ */
 public class Scene {
 
 	Random rand;

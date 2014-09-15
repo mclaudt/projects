@@ -7,6 +7,10 @@ import linalg.Ray;
 
 
 
+/** Интерфейс для тел - компонентов сцены.
+ * @author mclaudt
+ *
+ */
 interface Body {
 	
 

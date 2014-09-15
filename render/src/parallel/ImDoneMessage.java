@@ -2,6 +2,10 @@ package parallel;
 
 import java.io.Serializable;
 
+/** Сообщение от актора отрисовки к актору-менеджеру о завершении работы. В нагрузку идет растр результата.
+ * @author mclaudt
+ *
+ */
 @SuppressWarnings("serial")
 class ImDoneMessage implements Serializable {
 	public SerializableBufferedImage result;

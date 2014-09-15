@@ -5,6 +5,10 @@ import java.awt.image.BufferedImage;
 import scene.Scene;
 import akka.actor.UntypedActor;
 
+/** Актор отрисовки, получает задачу в виде сцены и участка на отрисовку, по завершении отсылает растр результата.
+ * @author mclaudt
+ *
+ */
 public class RenderActor extends UntypedActor {
 	public RenderActor() {
 

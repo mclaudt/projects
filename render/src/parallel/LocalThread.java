@@ -7,6 +7,10 @@ import javax.swing.SwingWorker;
 
 import scene.Scene;
 
+/** Тред для многопоточного расчета вне парадигмы akka.
+ * @author mclaudt
+ *
+ */
 public class LocalThread extends SwingWorker<String, Object> {
 
 	int from;

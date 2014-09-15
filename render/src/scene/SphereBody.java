@@ -12,6 +12,10 @@ import linalg.*;
 
 
 
+/** Компонент в виде сферы
+ * @author mclaudt
+ *
+ */
 public class SphereBody implements Body {
 
 	public float rad = 10;

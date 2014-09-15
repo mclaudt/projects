@@ -5,6 +5,10 @@ import java.io.Serializable;
 
 import javax.swing.JPanel;
 
+/** Сообщение от системы к главному актору перед началом расчета
+ * @author mclaudt
+ *
+ */
 @SuppressWarnings("serial")
 public class WriteHereMessage implements Serializable {
 	BufferedImage bi;
