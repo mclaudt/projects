@@ -56,7 +56,7 @@ public class Scene {
 	float sh = 400f;
 
 	
-	int slices = 15;
+	int slices = 20;
 
 	
 	int maxiter = 5;

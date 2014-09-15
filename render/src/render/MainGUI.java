@@ -39,6 +39,7 @@ import javax.swing.event.ChangeEvent;
 import parallel.*;
 import javax.swing.JLabel;
 import java.awt.Dimension;
+import javax.swing.SpinnerNumberModel;
 
 /** Точка входа, с GUI.
  * @author mclaudt
@@ -234,6 +235,7 @@ public class MainGUI extends JFrame {
 		panel_1.add(lblNewLabel, "cell 0 0 2 1,growx");
 
 		spinner = new JSpinner();
+		spinner.setModel(new SpinnerNumberModel(new Integer(6), new Integer(1), null, new Integer(1)));
 		spinner.setPreferredSize(new Dimension(45, 28));
 		spinner.setMinimumSize(new Dimension(35, 20));
 
