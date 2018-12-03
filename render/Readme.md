@@ -5,5 +5,6 @@ Ray tracer demo, using author modification of ray tracing algorithm for photorea
 Run java -jar AkkaRenderer.jar
 
 # Examples
-![Alt text](render_1.png?raw=true "Example rendering")
-![Alt text](render_2.png?raw=true "Another example rendering")
+![img1](renderer_1.png "Example rendering")
+
+![img2](renderer_2.png "Another example rendering")
